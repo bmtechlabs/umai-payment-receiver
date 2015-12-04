@@ -1,5 +1,7 @@
 # UMAI Payment Receiver API
 
+[![Build Status](https://travis-ci.org/bmtechlabs/umai-payment-receiver.svg?branch=master)](https://travis-ci.org/bmtechlabs/umai-payment-receiver)
+
 Provides the basic behaviour of the [UMAI RESTful API Specification](https://github.com/bmtechlabs/umai-payment-receiver/wiki/RESTful-API-Specification) for Node.js.
 
 You can use this library to easily implement your own module that can receive payment transactions from the [&laquo;UMAI&raquo; Payment System](https://www.umai.kg/).
