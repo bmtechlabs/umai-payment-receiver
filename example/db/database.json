@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "driver": "pg",
+    "user": { "ENV": "USER" },
+    "password": "",
+    "host": "localhost",
+    "database": "umai_payment_receiver_dev"
+  },
+
+  "test": {
+    "driver": "pg",
+    "user": { "ENV": "USER" },
+    "password": "",
+    "host": "localhost",
+    "database": "umai_payment_receiver_test"
+  },
+
+  "prod": {
+    "driver": "pg",
+    "user": { "ENV": "DB_USER" },
+    "password": { "ENV": "DB_PASS" },
+    "host": { "ENV": "DB_HOST" },
+    "database": "umai_payment_receiver"
+  }
+}
