@@ -1,10 +1,11 @@
-# UMAI Payment Receiver API
+# UMAI Payment Receiver API for Node.js
 
 [![Build Status](https://travis-ci.org/bmtechlabs/umai-payment-receiver.svg?branch=master)](https://travis-ci.org/bmtechlabs/umai-payment-receiver)
 
-Provides the basic behaviour of a module that can receive payments as specified by the [UMAI RESTful API Specification](https://github.com/bmtechlabs/umai-payment-receiver/wiki/RESTful-API-Specification) for Node.js.
+Provides the basic behaviour of a module that can receive guaranteed payment transaction notifications as specified by the [UMAI RESTful API Specification](https://github.com/bmtechlabs/umai-payment-receiver/wiki/RESTful-API-Specification).
 
-You can use this library to easily implement your own [&laquo;UMAI&raquo; Payment System](https://www.umai.kg/) integration module.
+You can use this library to implement your own [&laquo;UMAI&raquo; Payment System](https://www.umai.kg/) integration module on Node.js.
+
 
 ## Install
 
@@ -15,8 +16,7 @@ $ npm install umai-payment-receiver --save
 
 ## API
 
-To implement the basic behaviour of the payment receiver module,
-you'll need to extend the `PaymentReceiverAPI` implementing the following methods:
+To implement your payment receiver module, inherit the `PaymentReceiver` class defining the following methods:
 
 
 ### `.validate(params, callback)`
@@ -237,9 +237,9 @@ receiver.listen(3000, VPN_INTERFACE_IP, function () {
 
 ## Quick start
 
-You can use the [/example](https://github.com/bmtechlabs/umai-payment-receiver/tree/master/example)
-project from this repo as a template project to implement your own payment receiver module.
+You can use the [/example](https://github.com/bmtechlabs/umai-payment-receiver/tree/master/example) project from this repo as a template project to implement your own payment receiver module.
 It also contains the basic integration specs which you can run to ensure that your module meets the basic requirements of the [RESTful-API-Specification](https://github.com/bmtechlabs/umai-payment-receiver/wiki/RESTful-API-Specification).
+
 
 ## Contributing
 
