@@ -6,6 +6,9 @@ Provides the basic behaviour of a module that can receive guaranteed payment tra
 
 You can use this library to implement your own [&laquo;UMAI&raquo; Payment System](https://www.umai.kg/) integration module on Node.js.
 
+This library supports Node.js versions beginning from `v0.10` till latest stable (including io.js versions).
+Please refer [TravisCI builds](https://travis-ci.org/bmtechlabs/umai-payment-receiver) for more details.
+
 
 ## Install
 
