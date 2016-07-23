@@ -1,7 +1,7 @@
 {
   "name": "umai-payment-receiver",
   "description": "UMAI Payment Receiver API",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Dan Kerimdzhanov <kerimdzhanov@gmail.com>",
   "license": "MIT",
   "repository": {
